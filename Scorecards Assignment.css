@@ -1,0 +1,30 @@
+table {
+  width: 100%;
+  max-width: 600px;
+  border-collapse: collapse;
+  margin: 20px auto;
+  font-family: sans-serif;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+th {
+  background-color: #1a4457;
+  color: white;
+  padding: 12px;
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+tr:nth-of-type(odd) {
+  background-color: #f2f5f7;
+}
+
+tr:hover {
+  background-color: #e2ebf0;
+}
