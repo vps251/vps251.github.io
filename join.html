@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sign up to become a member of The Page Turners book club.">
+  <title>Join Us | The Page Turners</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+  <header>
+    <h1>Become a Member</h1>
+    <p>Start Your Reading Journey With Us</p>
+  </header>
+
+  <nav aria-label="Main Navigation">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="genres.html">Genres</a></li>
+      <li><a href="schedule.html">Schedule</a></li>
+      <li><a href="join.html" aria-current="page">Join Us</a></li>
+      <li><a href="media.html">Media</a></li>
+      <li><a href="reviews.html">Reviews</a></li>
+    </ul>
+  </nav>
+
+  <main id="main-content">
+    <h2>Membership Registration Form</h2>
+    <p>Fill out the form below. Our regional organizers will reach out with onboarding materials within 3 business days.</p>
+
+    <form action="#" method="post">
+      <div class="form-group">
+        <label prejudices for="user-name">Full Name:</label>
+        <input type="text" id="user-name" name="userName" required autocomplete="name">
+      </div>
+
+      <div class="form-group">
+        <label for="user-email">Email Address:</label>
+        <input type="email" id="user-email" name="userEmail" required autocomplete="email">
+      </div>
+
+      <div class="form-group">
+        <label for="track-select">Preferred Track Allocation:</label>
+        <select id="track-select" name="trackSelect">
+          <option value="fiction">Fiction Focus Track</option>
+          <option value="nonfiction">Non-Fiction Analysis Track</option>
+          <option value="both">Combined Multi-Track Membership</option>
+        </select>
+      </div>
+
+      <button type="submit">Submit Registration Application</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 The Page Turners Social Club. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
